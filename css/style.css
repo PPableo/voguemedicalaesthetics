@@ -8790,3 +8790,198 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* About Page Specific Styles */
+.about-hero {
+  padding: 80px 0;
+  background-color: var(--light);
+}
+
+.about-image {
+  position: relative;
+  padding: 20px;
+}
+
+.about-image img {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.02);
+}
+
+.about-content {
+  padding: 30px;
+}
+
+.about-content h1 {
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-content .lead {
+  color: var(--gray);
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.about-bio {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.bio-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.bio-content p {
+  margin-bottom: 1.5rem;
+  color: var(--dark);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+      padding: 40px 0;
+  }
+  
+  .about-content {
+      text-align: center;
+      padding: 20px 0;
+  }
+  
+  .about-image {
+      margin-bottom: 30px;
+  }
+}
+
+.instagram-feed {
+  padding: 80px 0;
+  background-color: var(--light);
+}
+
+.instagram-feed h2 {
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.instagram-feed .lead {
+  color: var(--gray);
+  margin-bottom: 40px;
+}
+
+.instagram-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.instagram-embed {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .instagram-feed {
+      padding: 40px 0;
+  }
+  
+  .instagram-grid {
+      gap: 20px;
+  }
+}
+
+/* Services Page Styles */
+.services-hero,
+.contact-hero {
+    padding: 80px 0;
+    background-color: var(--light);
+}
+
+#work-lead {
+  h1 {
+    color: var(--primary);
+  }
+}
+
+.service-card {
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+/* Contact Page Styles */
+#contact-main {
+  h1 {
+    color: var(--primary);
+  }
+}
+
+.contact-content {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.contact-info {
+    padding: 30px;
+    background: var(--light);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.contact-form .btn-primary {
+    background-color: var(--primary);
+    border: none;
+    padding: 12px 30px;
+    font-weight: 500;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .services-hero,
+    .contact-hero {
+        padding: 40px 0;
+    }
+    
+    .contact-content {
+        padding: 40px 0;
+    }
+}
